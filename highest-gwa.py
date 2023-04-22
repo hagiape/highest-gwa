@@ -17,7 +17,7 @@ for i in read_gwa:
         # you will encounter a backslash character. it will be utilized as the stopping
         # point of the string
         backslash = i.find('\\')
-        top_student = i[3:backslash]
-# convert to int
-# if placeholder > index then replace placeholder with index
+        top_student = i[6:backslash]
 # print highest gwa with the name of the student
+print(highest_gwa)
+print(top_student)
