@@ -18,3 +18,4 @@ for i in read_gwa:
 # print highest gwa with the name of the student
 print(highest_gwa)
 print(top_student)
+read_gwa.close()
